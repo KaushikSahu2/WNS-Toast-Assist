@@ -1,0 +1,50 @@
+﻿  MainWindow.xaml.cpp
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(178,9): warning C4189: 'attribute': local variable is initialized but not referenced
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(207,10): warning C4189: 'withImage': local variable is initialized but not referenced
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(183,35): warning C4189: 'audioOption': local variable is initialized but not referenced
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\Microsoft.Windows.PushNotifications.h(60,143): warning C4459: declaration of 'remoteId' hides global declaration
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(45,13): message : see declaration of 'remoteId'
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\Microsoft.Windows.PushNotifications.h(61,5): message : see reference to function template instantiation 'auto winrt::impl::consume_Microsoft_Windows_PushNotifications_IPushNotificationManager<winrt::Microsoft::Windows::PushNotifications::IPushNotificationManager>::CreateChannelAsync(const winrt::guid &) const' being compiled
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(320,9): warning C4100: 'sender': unreferenced formal parameter
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\Windows.Foundation.h(850,1): message : see reference to function template instantiation 'void RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>::operator ()<const winrt::Windows::Foundation::IAsyncOperationWithProgress<winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus>&,const TProgress&>(const winrt::Windows::Foundation::IAsyncOperationWithProgress<winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,TProgress> &,const TProgress &) const' being compiled
+          with
+          [
+              TProgress=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus
+          ]
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\Windows.Foundation.h(848,1): message : while compiling class template member function 'int32_t winrt::impl::delegate<T,H>::Invoke(void *,winrt::impl::struct_Microsoft_Windows_PushNotifications_PushNotificationCreateChannelStatus) noexcept'
+          with
+          [
+              T=winrt::Windows::Foundation::AsyncOperationProgressHandler<winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus>,
+              H=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>
+          ]
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\base.h(5328,1): message : see reference to class template instantiation 'winrt::impl::delegate<T,H>' being compiled
+          with
+          [
+              T=winrt::Windows::Foundation::AsyncOperationProgressHandler<winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus>,
+              H=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>
+          ]
+E:\Windows\POC\AssistPOC\AssistRepo\Generated Files\winrt\Windows.Foundation.h(2408,1): message : see reference to function template instantiation 'T winrt::impl::make_delegate<winrt::Windows::Foundation::AsyncOperationProgressHandler<TResult,TProgress>,_Ty>(H &&)' being compiled
+          with
+          [
+              T=winrt::Windows::Foundation::AsyncOperationProgressHandler<winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus>,
+              TResult=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,
+              TProgress=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus,
+              _Ty=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>,
+              H=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>
+          ]
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(320,10): message : see reference to function template instantiation 'winrt::Windows::Foundation::AsyncOperationProgressHandler<TResult,TProgress>::AsyncOperationProgressHandler<RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>>(L)' being compiled
+          with
+          [
+              TResult=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,
+              TProgress=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus,
+              L=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>
+          ]
+E:\Windows\POC\AssistPOC\AssistRepo\MainWindow.xaml.cpp(308,30): message : see reference to function template instantiation 'winrt::Windows::Foundation::AsyncOperationProgressHandler<TResult,TProgress>::AsyncOperationProgressHandler<RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>>(L)' being compiled
+          with
+          [
+              TResult=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelResult,
+              TProgress=winrt::Microsoft::Windows::PushNotifications::PushNotificationCreateChannelStatus,
+              L=RequestChannelAsync::<lambda_0cde4ebcd0fb3b6fada6a9b6f7d2e52f>
+          ]
+     Creating library E:\Windows\POC\AssistPOC\x64\Debug\AssistRepo\AssistRepo.lib and object E:\Windows\POC\AssistPOC\x64\Debug\AssistRepo\AssistRepo.exp
+  AssistRepo.vcxproj -> E:\Windows\POC\AssistPOC\x64\Debug\AssistRepo\AssistRepo.exe

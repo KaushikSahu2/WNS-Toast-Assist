@@ -1,0 +1,1 @@
+E:\Windows\POC\AssistPOC\AssistRepo\AssistRepo.vcxproj;x64

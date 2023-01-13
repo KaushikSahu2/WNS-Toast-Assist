@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\Windows\POC\AssistPOC\x64\Debug\AssistRepo\AssistRepo.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\LockScreenLogo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\SplashScreen.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\Square150x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\Square44x44Logo.scale-200.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\StoreLogo.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>E:\Windows\POC\AssistPOC\AssistRepo\Assets\Wide310x150Logo.scale-200.png</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
